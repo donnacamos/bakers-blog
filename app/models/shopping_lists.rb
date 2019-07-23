@@ -1,0 +1,4 @@
+class ShoppingLists < ActiveRecord::Base 
+  belongs_to :user 
+  belongs_to :recipes
+end 
